@@ -1,0 +1,69 @@
+body {
+    background-color: #eee9f5;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  input[type="number"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .people-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .number-of-people {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #b39ddb;
+    color: white;
+  }
+  
+  .add-subtract-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .add-subtract-buttons button {
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    font-size: 18px;
+    background-color: #b39ddb;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .add-subtract-buttons button:first-child {
+    margin-right: 10px;
+  }
+  
+  .total-price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
